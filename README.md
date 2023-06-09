@@ -6,3 +6,5 @@ But I'll focus to solve problems in:
 - Rust
 - Golang
 - TypeScript
+
+If you want to run some leetcode, I recommend you to not open the main project folder. Instead, open the folder of the language you want to run, and then run the main file that contains the output of the problems.
