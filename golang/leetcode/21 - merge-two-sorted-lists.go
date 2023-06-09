@@ -1,7 +1,9 @@
-package golang
+package leetcode
 
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
-	list := &ListNode{}
+import "github.com/vit0rr/loguic/helper"
+
+func MergeTwoLists(l1 *helper.ListNode, l2 *helper.ListNode) *helper.ListNode {
+	list := &helper.ListNode{}
 	ans := list
 
 	for l1 != nil && l2 != nil {
